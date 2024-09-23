@@ -2,14 +2,14 @@
   "name": "font-downloader",
   "version": "1.0.9",
   "description": "A CLI tool to download Google Fonts",
-  "main": "lib/cli.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "download": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "font_downloader": "./bin/index.js"
+    "font-downloader": "./bin/index.js"
   },
   "keywords": [
     "fonts",
