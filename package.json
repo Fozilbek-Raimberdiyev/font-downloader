@@ -25,5 +25,9 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fozilbek-Raimberdiyev/font-downloader.git"
   }
 }
