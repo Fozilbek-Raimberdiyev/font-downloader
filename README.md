@@ -28,20 +28,13 @@ yarn add font-downloader
 
 Quyidagi buyruq yordamida yuklab olish mumkin:
 ```sh
-npm npx font_downloader <fontName>
-```
-```sh
-pnpm exec font_downloader <fontName>
-```
-
-```sh
-yarn dlx font_downloader <fontName>
+font-downloader <fontName>
 ```
 
 Misol uchun, `Roboto` fontini yuklab va uning CSS stylesheetsini generatsiya qilishni ko'rib o'tamiz
 
 ```sh
-pnpm exec font_downloader Roboto
+font-downloader Roboto
 ```
 Bu buyruq  `Roboto` font fayllarini yuklab olib, uning CSS stylesheetsini generatsiya qiladi
 
