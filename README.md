@@ -67,6 +67,6 @@ body {
 To contribute to this project, please submit a pull request or open an issue.
 
 
-# Litsenziya
+# License
 
 <span style="color : #2964AA">MIT</span>
