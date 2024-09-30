@@ -1,46 +1,46 @@
 
-`font-downloader` - bu Google Fonts shriftlarini yuklash va  undan foydalanish uchun CSS stylesheet generatsiya qilib beradigan CLI tool hisoblanadi
+`font-downloader` - This is a CLI tool that downloads Google Fonts and generates CSS stylesheets for using them.
 
-# O'rnatish
+# Installation
 
-Siz ushbu paketni `npm` yordamida  o'rnatishingiz mumkin:
+You can install this package using `npm`:
 
 ```sh
 npm install  font-downloader
 
 ```
- `pnpm` orqali:
+ Or using `pnpm`:
 
 ```sh
 pnpm add font-downloader
 
 ```
 
-`yarn ` orqali:
+Or using `yarn`:
 
 ```sh
 yarn add font-downloader
 ```
 
-# Foydalanish
+# Usage
 
-### Fontlarni yuklab olish
+### Downloading Fonts
 
-Quyidagi buyruq yordamida yuklab olish mumkin:
+You can download fonts using the following command:
 ```sh
 font-downloader <fontName>
 ```
 
-Misol uchun, `Roboto` fontini yuklab va uning CSS stylesheetsini generatsiya qilishni ko'rib o'tamiz
+For example, to download the `Roboto` font and generate its CSS stylesheet:
 
 ```sh
 font-downloader Roboto
 ```
-Bu buyruq  `Roboto` font fayllarini yuklab olib, uning CSS stylesheetsini generatsiya qiladi
+This command will download the `Roboto` font files and generate its CSS stylesheet.
 
 
-### Ko'rinish
- Yuklab olingan font fayllari quyidagi strukturada saqlanadi:
+### Structure
+ Downloaded font files are saved in the following structure:
 
  ```sh
 /src/assets/fonts/<font-name>/
@@ -49,9 +49,9 @@ Bu buyruq  `Roboto` font fayllarini yuklab olib, uning CSS stylesheetsini genera
     - <font-name>.css
  ```
 
- Yaratilgan CSS fayli loyihangizga shriftni kiritish uchun @font-face qoidalarini o'z ichiga oladi.
+ The generated CSS file contains @font-face rules for including the font in your project.
 
- ### CSS dan foydalnish 
+ ### Using CSS
 
  ```css
 @import url('./src/assets/fonts/roboto/roboto.css');
@@ -62,9 +62,9 @@ body {
  ```
 
 
-# Contribute qilish
+# Contributing
 
-Ushbu loyihaga hissa qo‘shish uchun `pull request` so‘rovini yuboring yoki `issue` oching
+To contribute to this project, please submit a pull request or open an issue.
 
 
 # Litsenziya
