@@ -6,20 +6,25 @@
 You can install this package using `npm`:
 
 ```sh
-npm install  font-downloader
+npm install -g  font-downloader
 
 ```
  Or using `pnpm`:
 
 ```sh
-pnpm add font-downloader
+pnpm add -g font-downloader
 
 ```
 
 Or using `yarn`:
 
 ```sh
-yarn add font-downloader
+yarn add -g font-downloader
+```
+Or using `bun`:
+
+```sh
+bun add -g font-downloader
 ```
 
 # Usage
